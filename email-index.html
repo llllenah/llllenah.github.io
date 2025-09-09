@@ -5,28 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Фехтування: Мистецтво бою</title>
 </head>
-<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; color: #333;">
-    <div style="width: 100%; max-width: 600px; margin: 0 auto;">
-        <div style="background: #007bff; padding: 20px; color: #fff; text-align: center;">
-            <h1>Фехтування: Мистецтво бою</h1>
-            <p>Тут ви дізнаєтесь про фехтування</p>
+<body style="margin: 0; padding: 10px; font-family: Arial, sans-serif; background: #f0f0f0; min-width: 320px;">
+    <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: minmax(160px, 200px) 1fr minmax(140px, 180px); grid-template-rows: auto auto 1fr auto auto; gap: 10px; grid-template-areas: 'header header header' 'menu narrow-bar narrow-bar' 'menu content sidebar' 'menu bottom-bar sidebar' 'footer footer footer';">
+        
+        <!-- Header -->
+        <div style="grid-area: header; background: #4CAF50; color: white; padding: 15px; display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <h1 style="font-size: 24px; margin: 0;">Фехтування: Мистецтво бою</h1>
+            </div>
+            <div style="text-align: right;">
+                <p style="margin: 2px 0;">Тут ви дізнаєтесь про фехтування</p>
+                <p style="margin: 2px 0;">Приєднуйтесь до нашої спільноти</p>
+            </div>
         </div>
-        <div style="padding: 20px; background: #fff;">
-            <h2>Фехтування – мистецтво.</h2>
-            <p>Фехтування – це олімпійський вид спорту, що поєднує швидкість, стратегію та майстерність.</p>
-            <p>Основні види:</p>
-            <ul style="list-style-type: none; padding: 0;">
-                <li style="margin: 10px 0;">Шпага</li>
-                <li style="margin: 10px 0;">Рапіра</li>
-                <li style="margin: 10px 0;">Шабля</li>
+        
+        <!-- Menu -->
+        <nav style="grid-area: menu; background: #2196F3; color: white; padding: 15px; min-width: 160px;">
+            <ul style="list-style: none; margin: 0; padding: 0;">
+                <li style="margin: 5px 0;"><a href="https://llllenah.github.io/index.html" style="color: white; padding: 5px; display: block; text-decoration: none;">Головна</a></li>
+                <li style="margin: 5px 0;"><a href="https://llllenah.github.io/page1.html" style="color: white; padding: 5px; display: block; text-decoration: none;">Історія</a></li>
+                <li style="margin: 5px 0;"><a href="https://llllenah.github.io/page2.html" style="color: white; padding: 5px; display: block; text-decoration: none;">Техніки</a></li>
+                <li style="margin: 5px 0;"><a href="https://llllenah.github.io/page3.html" style="color: white; padding: 5px; display: block; text-decoration: none;">Екіпірування</a></li>
+                <li style="margin: 5px 0;"><a href="https://llllenah.github.io/page4.html" style="color: white; padding: 5px; display: block; text-decoration: none;">Змагання</a></li>
             </ul>
-            <p>Дізнайтесь про історію та сучасність фехтування на нашому сайті.</p>
-            <p><a href="https://llllenah.github.io" style="color: #007bff; text-decoration: none;">Відвідати сайт</a></p>
+        </nav>
+        
+        <!-- Narrow Bar -->
+        <div style="grid-area: narrow-bar; background: #FF9800; color: white; padding: 15px; text-align: center;">
+            <h2 style="margin: 0 0 5px; font-size: 18px;">Фехтування – мистецтво і спорт</h2>
+            <p style="margin: 0;">Дізнайтесь більше про цей захоплюючий вид спорту</p>
         </div>
-        <div style="background: #007bff; padding: 20px; color: #fff; text-align: center;">
-            <h2>Честь і майстерність</h2>
-            <p>Фехтування – це шлях до досконалості.</p>
+        
+        <!-- Content -->
+        <div style="grid-area: content; background: white; padding: 15px; border: 1px solid #ccc;">
+            <h2 style="margin-top: 0; color: #333;">Ласкаво просимо до світу фехтування!</h2>
+            <p style="line-height: 1.6; margin-bottom: 15px;">Фехтування – це олімпійський вид спорту, що поєднує швидкість, стратегію та неймовірну майстерність. Це мистецтво бою, яке розвивалося протягом століть і досі захоплює мільйони людей по всьому світу.</p>
+            
+            <p style="line-height: 1.6; margin-bottom: 15px;">У фехтуванні кожен рух має значення, кожна секунда вирішує долю поєдинку. Це спорт, що вимагає не лише фізичної підготовки, але й гострого розуму, швидкого прийняття рішень та психологічної стійкості.</p>
+            
+            <p style="line-height: 1.6; margin-bottom: 15px;">Незалежно від того, чи ви новачок, який тільки відкриває для себе цей вид спорту, чи досвідчений фехтувальник, наш сайт допоможе вам поглибити знання про фехтування та його багату історію.</p>
+        </div>
+        
+        <!-- Right Sidebar -->
+        <div style="grid-area: sidebar; background: #2196F3; color: white; padding: 15px; min-width: 140px;">
+            <p style="margin: 0 0 10px 0; font-weight: bold;">Основні види зброї:</p>
+            <ul style="list-style: none; margin: 0; padding: 0;">
+                <li style="margin: 5px 0; padding: 5px; background: rgba(255, 255, 255, 0.2);">Шпага</li>
+                <li style="margin: 5px 0; padding: 5px; background: rgba(255, 255, 255, 0.2);">Рапіра</li>
+                <li style="margin: 5px 0; padding: 5px; background: rgba(255, 255, 255, 0.2);">Шабля</li>
+            </ul>
+        </div>
+        
+        <!-- Bottom Bar -->
+        <div style="grid-area: bottom-bar; background: #FF9800; color: white; padding: 15px; text-align: center;">
+            <h2 style="margin: 0; font-size: 18px;">Приєднуйтесь до тренувань!</h2>
+        </div>
+        
+        <!-- Footer -->
+        <div style="grid-area: footer; background: #4CAF50; color: white; padding: 15px; display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <h2 style="font-size: 18px; margin: 0;">Честь і майстерність</h2>
+            </div>
+            <div style="text-align: right;">
+                <p style="margin: 2px 0;">Фехтування – це шлях до досконалості</p>
+                <p style="margin: 2px 0;">Розвивайте свої навички кожен день</p>
+            </div>
         </div>
     </div>
+    
+    <!-- Fallback for email clients that don't support CSS Grid -->
+    <style>
+        @media screen and (-webkit-min-device-pixel-ratio:0) {
+            @supports not (display: grid) {
+                div[style*="display: grid"] {
+                    display: block !important;
+                }
+                div[style*="grid-area"] {
+                    display: block !important;
+                    margin-bottom: 10px !important;
+                }
+            }
+        }
+        
+        /* Mobile fallback */
+        @media (max-width: 768px) {
+            div[style*="display: grid"] {
+                grid-template-columns: 1fr !important;
+                grid-template-areas: "header" "menu" "narrow-bar" "content" "bottom-bar" "sidebar" "footer" !important;
+            }
+            
+            div[style*="display: flex"] {
+                flex-direction: column !important;
+                text-align: center !important;
+            }
+            
+            div[style*="min-width: 160px"], div[style*="min-width: 140px"] {
+                min-width: auto !important;
+            }
+        }
+    </style>
 </body>
 </html>
